@@ -6,5 +6,6 @@ theme = "github-style"
 [params]
   author = "陳均昊"
   description = "這是我的暑期實習工作日誌"
+  avatar = "images/download.jpg"
   github = ""  # 可填空
   url = ""
