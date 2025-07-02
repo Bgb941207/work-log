@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>均昊的工作日誌</title>
+    <title>工作日誌</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on 均昊的工作日誌</description>
+    <description>Recent content on 工作日誌</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Wed, 02 Jul 2025 10:08:11 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-07-02</title>
-      <link>http://localhost:1313/posts/20250702/</link>
+      <link>http://localhost:1313/post/20250702/</link>
       <pubDate>Wed, 02 Jul 2025 10:08:11 +0800</pubDate>
-      <guid>http://localhost:1313/posts/20250702/</guid>
-      <description>&lt;p&gt;1.早上開了晨會&lt;/p&gt;&#xA;&lt;p&gt;2.完成工作日誌網站構建&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2025-07-01</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 02 Jul 2025 09:34:30 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;1.學習了git和hugo的架構與創建實作&lt;/p&gt;&#xA;&lt;p&gt;2.閱讀MTBF相關手冊和系統登入&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/20250702/</guid>
+      <description>&lt;p&gt;abstraction show in the post page&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

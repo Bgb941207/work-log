@@ -1,4 +1,10 @@
 baseURL = 'https://example.org/'
 languageCode = 'zh-tw'
-title = '均昊的工作日誌'
-theme = "ananke"
+title = '工作日誌'
+theme = "github-style"
+
+[params]
+  author = "陳均昊"
+  description = "這是我的暑期實習工作日誌"
+  github = ""  # 可填空
+  url = ""
