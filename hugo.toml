@@ -6,6 +6,20 @@ theme = "github-style"
 [params]
   author = "陳均昊"
   description = "這是我的暑期實習工作日誌"
-  avatar = "images/download.jpg"
+  avatar = "/images/download.jpg"
+  facebook = "陳均昊"
+  instagram = "BGB_CCH"
+  twitter = "bgb"
   github = ""  # 可填空
+  email = "bgb20051207@gmail.com"
   url = ""
+  headerIcon = "/images/github-mark-white.png"
+  location = "Taiwan"
+  userStatusEmoji = "😀"
+  enableSearch = true
+  lastmod = true
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
