@@ -6,14 +6,14 @@ theme = "github-style"
 [params]
   author = "陳均昊"
   description = "這是我的暑期實習工作日誌"
-  avatar = "/images/avatar.png"
+  avatar = "https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/avatar.png"
   facebook = "陳均昊"
   instagram = "BGB_CCH"
   twitter = "bgb"
   github = ""  # 可填空
   email = "bgb20051207@gmail.com"
   url = ""
-  headerIcon = "/images/github-mark-white.png"
+  headerIcon = "https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/GitHub-Symbol.png"
   location = "Taiwan"
   userStatusEmoji = "😀"
   enableSearch = true
