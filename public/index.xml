@@ -6,14 +6,21 @@
     <description>Recent content on 工作日誌</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 02 Jul 2025 11:00:25 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 11:40:58 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-07-03</title>
+      <link>http://localhost:1313/post/20250703/</link>
+      <pubDate>Thu, 03 Jul 2025 10:08:11 +0800</pubDate>
+      <guid>http://localhost:1313/post/20250703/</guid>
+      <description>&lt;p&gt;1.excel轉yaml程式優化&lt;/p&gt;&#xA;&lt;p&gt;2.學習在vscode中以node.js環境使用typescript和javascript語言&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025-07-02</title>
       <link>http://localhost:1313/post/20250702/</link>
       <pubDate>Wed, 02 Jul 2025 10:08:11 +0800</pubDate>
       <guid>http://localhost:1313/post/20250702/</guid>
-      <description>&lt;p&gt;1.早上開了晨會&lt;/p&gt;&#xA;&lt;p&gt;2.完成工作日誌網站構建&lt;/p&gt;</description>
+      <description>&lt;p&gt;1.早上開了晨會&lt;/p&gt;&#xA;&lt;p&gt;2.完成工作日誌網站構建&lt;/p&gt;&#xA;&lt;p&gt;3.下午填寫八里廠報修單歷史資料&lt;/p&gt;&#xA;&lt;p&gt;4.寫了一個小程式把excel轉乘yaml&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025-07-01</title>
