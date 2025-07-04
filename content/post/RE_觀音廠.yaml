@@ -1,0 +1,2045 @@
+RE_觀音廠:
+   -  name: 'B-0117.#1M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0117.#1M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0117.#1M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0217.#2M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0217.#2M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0217.#2M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0120.#1#2S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0120.#1#2S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0120.#1#2S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-9001_TR.#1空壓機(101HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0101.#1熟料秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0101.#1熟料秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0102.#1石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0102.#1石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0201.#2熟料秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0201.#2熟料秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0202.#2石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'W-0202.#2石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'O-0111.#1高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'O-0211.#2高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'H-0113.#1#2循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'H-0113.#1#2循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'H-4005.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0114.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0116.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0119.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0125.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0212.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0216.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-4003.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-4004.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-4026.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-0117.#1M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-0217.#2M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-1101.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-1102.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-1201.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'V-1202.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'C-0115.#1#2選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'C-0115.#1#2選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'C-0115.#1#2選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'S-0121.#1#2S系收塵螺運機A'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'S-0122.#1#2S系收塵螺運機B'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'R-0118.#1M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'R-0123.#1#2S系收塵轉飼機A'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'R-0124.#1#2S系收塵轉飼機B'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'R-0218.#2M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#1#2'
+   -  name: 'B-0317.#3M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0317.#3M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0317.#3M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0417.#4M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0417.#4M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0417.#4M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0320.#3#4S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0320.#3#4S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0320.#3#4S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'HG3.助磨劑添加泵浦#3'
+      machineType: '泵浦'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'HG4.助磨劑添加泵浦#4'
+      machineType: '泵浦'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0301.#3熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0301.#3熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0302.#3石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0302.#3石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0401.#4熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0401.#4熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0402.#4石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'W-0402.#4石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'O-0311.#3高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'O-0411.#4高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-0313.#3#4循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-0313.#3#4循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0314.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0316.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0319.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0325.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0412.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0416.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-4026.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-4059.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-0317.#3M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-0417.#4M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-1301.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-1302.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-1401.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'V-1402.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'C-0315.#3#4選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'C-0315.#3#4選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'C-0315.#3#4選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'S-0321.#3#4S系收塵螺運機A'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'S-0322.#3#4S系收塵螺運機B'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'R-0318.#3M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'R-0323.#3#4S系收塵轉飼機A'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'R-0324.#3#4S系收塵轉飼機B'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'R-0418.#4M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#3#4'
+   -  name: 'B-0517.#5M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0517.#5M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0517.#5M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0617.#6M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0617.#6M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0617.#6M系收塵風機'
+      machineType: 'M系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0520.#5#6S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0520.#5#6S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0520.#5#6S系收塵風機'
+      machineType: 'S系風車'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'HG5.助磨劑添加泵浦#5'
+      machineType: '泵浦'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'HG6.助磨劑添加泵浦#6'
+      machineType: '泵浦'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0501.#5熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0501.#5熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0502.#5石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0502.#5石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0601.#6熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0601.#6熟料/爐石秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0602.#6石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'W-0602.#6石膏秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'O-0511.#5高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'O-0611.#6高壓水電阻'
+      machineType: '高壓水電阻'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'H-0513.#5#6循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'H-0513.#5#6循環提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0514.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0516.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0519.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0525.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0616.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-0616.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B-4075.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-0517.#5M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-0617.#6M系收塵機振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-1501.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-1502.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-1601.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'V-1602.儲料櫃震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'C-0515.#5#6選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'C-0515.#5#6選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'C-0515.#5#6選粉機'
+      machineType: '選粉機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'S-0521.#5#6S系收塵螺運機A'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'S-0522.#5#6S系收塵螺運機B'
+      machineType: '螺運機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'R-0518.#5M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'R-0523.#5#6S系收塵轉飼機A'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'R-0524.#5#6S系收塵轉飼機B'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'R-0618.#6M系收塵轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '研磨系統#5#6'
+   -  name: 'B9001.#1空壓機(100HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9001.#1空壓機(100HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9001.#1空壓機(100HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9001.#1空壓機(100HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9001.#1空壓機(100HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9002.#2空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9002.#2空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9002.#2空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9002.#2空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9002.#2空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9003.#3空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9003.#3空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9003.#3空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9003.#3空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9003.#3空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9004.#4空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9004.#4空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9004.#4空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9004.#4空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'B9004.#4空壓機(50HP)'
+      machineType: '空壓機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0101.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0102.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0201.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0202.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0301.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0302.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0401.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0402.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0501.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0502.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0601.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W0602.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W5104.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W5114.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W5124.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'W5134.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'Q-9010.乾燥機'
+      machineType: '乾燥機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'Q-9011.乾燥機'
+      machineType: '乾燥機'
+      machineSystems:
+         - '公用系統'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'P-0611.旋轉包裝機'
+      machineType: '包裝機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5114.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5214.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6005.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6005.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'L-6005.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-6009.提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-6009.提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-6009.提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-6009.提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-4042.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-4062.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-4062.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-4082.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-4083.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5005.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5005.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5005.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-1.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-1.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-1.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-2.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-2.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-2.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-3.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-3.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5016-3.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5019.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5019.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5019.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5027.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5027.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-5027.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6008.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6008.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6008.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6008.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6013.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6013.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6013.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6018.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6106.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6106.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'B-6106.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-5004.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-5004.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-5004.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6001.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6001.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6001.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6007.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6007.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6007.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6008.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6008.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'V-6008.震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'XV-4047.#7成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'XV-4069.#10成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-1.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-1.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-1.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-2.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-2.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-2.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-3.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-3.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6007-3.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6015.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6015.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'S-6015.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5114.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5134.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5134.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'W-5214.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '太空包補料'
+   -  name: 'H-4005.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4005.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4004.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4006.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4026.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4029.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4042.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4062.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4073.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4075.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4080.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4081.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4082.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4083.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'B-4084.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4007.#1成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4019.#2成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4021.#3成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4023.#4成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4030.#3成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4032.#4成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4034.#5成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4036.#6成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4043.#5成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4045.#6成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4047.#7成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4049.#8成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4063.#7成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4065.#8成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4067.#9成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'XV-4069.#10成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '成品入庫'
+   -  name: 'P-9021.#1#2磨冷卻水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9022.#3#4磨冷卻水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9023.#5#6磨冷卻水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9024.冷卻水泵(備用)'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9025.M系收塵風機冷卻水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9026.#1#2選粉機循環水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9027.#3#4選粉機循環水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9028.#5#6選粉機循環水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9031.冷卻水塔水幫浦'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9041.冷氣機循環水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'P-9042.乾燥機洗滌塔循環水泵'
+      machineType: '水泵'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'E-9032.散熱風扇'
+      machineType: '散熱風扇'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'R-0524.#5#6S系收塵轉飼機B'
+      machineType: '轉飼機'
+      machineSystems:
+         - '冷卻水系統'
+   -  name: 'A-4011.#3成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4011.#3成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4013.#5成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4013.#5成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4015.#7成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4015.#7成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4016.#8成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4016.#8成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4017.#9成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'A-4018.#10成品庫吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'R-5232.轉飼機吹氣電磁閥'
+      machineType: '吹氣電磁閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-5221.流量控制閥'
+      machineType: '流量控制閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-5221.流量控制閥'
+      machineType: '流量控制閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-5222.流量控制閥'
+      machineType: '流量控制閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-5222.流量控制閥'
+      machineType: '流量控制閥'
+      machineSystems:
+         - '參配系統'
+   -  name: 'M-5223.破碎機'
+      machineType: '破碎機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'M-5223.破碎機'
+      machineType: '破碎機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'M-5223.破碎機'
+      machineType: '破碎機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5114.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5134.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5214.秤飼機'
+      machineType: '秤飼機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4028.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4041.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'H-4061.入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'B-4042.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'B-5227.鼓風機'
+      machineType: '鼓風機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-4045.#6成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '參配系統'
+   -  name: 'XV-4047.#7成品庫擋板'
+      machineType: '擋板'
+      machineSystems:
+         - '參配系統'
+   -  name: 'BV-5228.壓縮空氣'
+      machineType: '壓縮空氣'
+      machineSystems:
+         - '參配系統'
+   -  name: 'BV-5238.壓縮空氣'
+      machineType: '壓縮空氣'
+      machineSystems:
+         - '參配系統'
+   -  name: 'S-5233.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5104.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5114.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5114.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5114.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5134.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5134.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5134.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5214.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5214.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'W-5214.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'R-5232.轉飼機'
+      machineType: '轉飼機'
+      machineSystems:
+         - '參配系統'
+   -  name: 'B-1003.收塵風車'
+      machineType: '風車'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1004.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1006.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1006.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1014.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1014.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1014.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1021.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1021.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1023.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1023.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1025.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1025.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1030.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1030.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1005.進料系統-入料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1005.進料系統-入料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1015.進料系統-入料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1015.進料系統-入料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1031.進料系統-出料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'H-1031.進料系統-出料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1004.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1007.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1008.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1014.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1022.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1024.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'B-1030.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'V-1001.熟料進料槽震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'V-1011.熟料進料槽震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'V-1025.石膏進料槽震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '進料系統-入料'
+   -  name: 'L-1021.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1021.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1023.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1023.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1025.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1025.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1030.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1030.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1051.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1051.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1053.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1053.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1054.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1054.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1055.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1055.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1056.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1056.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1057.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'L-1057.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'H-1031.進料系統-出料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'H-1031.進料系統-出料提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'B-1057.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'B-1058.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'B-1060.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'B-2030.儲料櫃收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'V-1030.石膏進料提運機震動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'V-1057.濕爐石儲槽振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '進料系統-出料'
+   -  name: 'G-2038.風扇煤磨'
+      machineType: '風扇煤磨'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'G-2038.風扇煤磨'
+      machineType: '風扇煤磨'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'G-2034.煤塊破碎機'
+      machineType: '破碎機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'G-2034.煤塊破碎機'
+      machineType: '破碎機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2002.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2002.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2002.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2003.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2013.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2013.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2013.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2013.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2022.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2024.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2033.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2033.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2033.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2037.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2037.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2037.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2910.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2910.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2911.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'L-2911.帶運機'
+      machineType: '帶運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'FGD_IN.濕式煙氣脫硫系統'
+      machineType: '脫硫系統'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2021.濕爐石提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2021.濕爐石提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2035.煤塊提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2035.煤塊提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2910.爐石入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'H-2910.爐石入庫提運機'
+      machineType: '提運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-1058.收塵風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2001.爐石加料斗收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2011.爐石加料斗收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2023.濕爐石儲槽收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2030.儲料櫃收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2032.煤塊加料斗收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2036.煤塊儲槽收塵機風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2039.煤粉風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2040.母火風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2941.乾燥機收塵排氣風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2941.乾燥機收塵排氣風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'B-2941.乾燥機收塵排氣風車'
+      machineType: '鼓風機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'M-2910.磁選機'
+      machineType: '磁選機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'M-2911.磁選機'
+      machineType: '磁選機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2001.爐石加料斗(一)振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2011.爐石加料斗(二)振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2012.爐石加料斗(二)振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2023.濕爐石儲槽振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2031.煤塊加料斗振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2036.煤塊儲槽振動馬達'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2941_1.乾燥收塵振動馬達A1'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2941_2.乾燥收塵振動馬達A2'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2941_3.乾燥收塵振動馬達B1'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'V-2941_4.乾燥收塵振動馬達B2'
+      machineType: '震動馬達'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2038.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2942.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2943.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2946.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2947.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
+   -  name: 'S-2948.螺運機'
+      machineType: '螺運機'
+      machineSystems:
+         - '爐石乾燥系統'
