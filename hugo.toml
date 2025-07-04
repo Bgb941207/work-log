@@ -24,9 +24,6 @@ theme = "github-style"
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[params]
-  enableSearch = true
-
 [outputs]
   home = ["html", "json"]
 
