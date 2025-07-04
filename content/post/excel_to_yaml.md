@@ -14,8 +14,8 @@ import pandas as pd
 import yaml
 
 # 參數設定
-EXCEL_PATH = "2025_new.xlsx"
-SHEET_NAME = 0  # 要選第幾個工作表(從0開始)
+EXCEL_PATH = "re_2025.xlsx"
+SHEET_NAME = 2  # 要選第幾個工作表(從0開始)
 SELECTED_COLUMNS = ["設備編號", "設備名稱", "設備類型", "循環系統"]
 KEY_MAP = {
     "設備名稱": "name",
@@ -23,7 +23,7 @@ KEY_MAP = {
     "循環系統": "machineSystems"
 }
 LIST_FIELDS = ["machineSystems"]
-OUTPUT_SHEET_NAME = "觀音廠_new"
+OUTPUT_SHEET_NAME = "觀音廠油泵"
 YAML_INDENT = 3  # 縮排參數
 
 # 字串加單引號
@@ -55,23 +55,21 @@ def rows2dict(data_rows, key_map, list_fields):
 
             key = key_map.get(col_name, col_name)
 
-            # 類型=>其他
-            if key == "machineType":
-                item[key] = SingleQuoted("其他")
-                continue
-
             # 處理 name 欄位
             if key == "name":
-                pattern = re.escape(id)
-                match = re.search(pattern, name)
-                if match:
-                    suffix = name[match.end():]
-                    # ✅ 只移除空白、破折號或冒號，保留 #
-                    name_suffix = re.sub(r'^[\s\-:]+', '', suffix).strip()
+            # 嘗試找到 id 的前綴在 name 中出現的位置
+                for i in range(len(id), 0, -1):
+                    prefix = id[:i]
+                    if name.startswith(prefix):
+                        suffix = name[len(prefix):]
+                        name_suffix = re.sub(r'^[\s\-:]+', '', suffix).strip()
+                        item[key] = SingleQuoted(f"{id}.{name_suffix}")
+                        break
                 else:
-                    name_suffix = name
-                item[key] = SingleQuoted(f"{id}.{name_suffix}")
+                    # 如果完全沒有前綴相符，就用原始 name
+                    item[key] = SingleQuoted(f"{id}.{name}")
                 continue
+
 
             value_str = str(value).strip()
             if key in list_fields:
