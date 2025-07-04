@@ -63,11 +63,13 @@ def rows2dict(data_rows, key_map, list_fields):
             # 處理 name 欄位
             if key == "name":
                 pattern = re.escape(id)
-                # 移除設備編號
-                name_suffix = re.sub(pattern, '', name)
-                # 去除非字元或空白，壓縮空格並去除空白 => (感謝chatgpt)
-                name_suffix = re.sub(r'^[^A-Za-z0-9\u4e00-\u9fff]+', '', name_suffix).strip()
-                name_suffix = re.sub(r'\s+', '', name_suffix)
+                match = re.search(pattern, name)
+                if match:
+                    suffix = name[match.end():]
+                    # ✅ 只移除空白、破折號或冒號，保留 #
+                    name_suffix = re.sub(r'^[\s\-:]+', '', suffix).strip()
+                else:
+                    name_suffix = name
                 item[key] = SingleQuoted(f"{id}.{name_suffix}")
                 continue
 
