@@ -7,7 +7,7 @@ title = 'Excel_to_yaml.py'
 這是一個可以把excel中的工廠圖控資料轉成yaml檔的程式
 
 <!--more-->
-```Arduino
+```python
 import os
 import re
 import pandas as pd
