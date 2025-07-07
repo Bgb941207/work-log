@@ -4,7 +4,8 @@ draft = false
 title = 'Excel_to_yaml.py'
 +++
 
-# 這是一個可以把excel中的工廠圖控資料轉成yaml檔的程式
+# excel轉成yaml檔的程式
+<!--more-->
 這份 Python 程式設計用來將 Excel 中的結構化資料轉換成 YAML 格式。特色如下：
 
 - ✅ 支援 Excel 多欄位資料選擇與欄位轉換
@@ -13,7 +14,7 @@ title = 'Excel_to_yaml.py'
 - ✅ 自訂 YAML 字串格式（加單引號）、縮排與輸出格式
 ---
 
-<!--more-->
+
 ## 1.引用函式庫
 匯入程式所需的標準與第三方套件：
 ```python
