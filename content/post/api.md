@@ -34,7 +34,7 @@ title = 'API'
 
 4.RESTful API:
 
-	○ REST(Representational State Transfer)是一種設計網路API的架構風格，符合它設計原則的API就稱為 RESTful API。
+	○ REST(Representational State Transfer)是一種設計網路API的架構風格，符合它設計原則的API就稱為RESTful API。
 
 	○ RESTful API的特性:
 
@@ -42,7 +42,7 @@ title = 'API'
 
 		◎每個資源(如使用者、商品)都有唯一的URL
 
-		◎使用統一格式(通常為 JSON)進行資料交換
+		◎使用統一格式(通常為JSON)進行資料交換
 
 		◎無狀態(Stateless)伺服器不會記住前一次請求的狀態
 
