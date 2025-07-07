@@ -18,25 +18,25 @@ title = 'API'
 
 2.API 的類型：
 
-	○REST API:最流行的API類型，基於HTTP協定，使用URL表示資源，並以JSON格式傳輸資料。簡潔、靈活，易於整合與維護。
+	○ REST API:最流行的API類型，基於HTTP協定，使用URL表示資源，並以JSON格式傳輸資料。簡潔、靈活，易於整合與維護。
+ 
+	○ SOAP API:一種較早期的API規範，基於XML格式傳輸資料，具有嚴格結構與安全設計。
 
-	○SOAP API:一種較早期的API規範，基於XML格式傳輸資料，具有嚴格結構與安全設計。
-
-	○GraphQL:一種新興API技術，由Facebook推出。允許客戶端自定義所需的資料欄位，並以一次請求取得多筆資料，減少資料冗餘與請求次數。
+	○ GraphQL:一種新興API技術，由Facebook推出。允許客戶端自定義所需的資料欄位，並以一次請求取得多筆資料，減少資料冗餘與請求次數。
 
 3.API 的作用：
 
-	○資料共享:讓不同系統之間同步資料，例如手機 App 與伺服器之間的互動。
+	○ 資料共享:讓不同系統之間同步資料，例如手機 App 與伺服器之間的互動。
 
-	○功能整合:將外部服務整合到自身應用中，例如：金流、地圖、ChatGPT等。
+	○ 功能整合:將外部服務整合到自身應用中，例如：金流、地圖、ChatGPT等。
 
-	○系統擴展:API使開發者能在不變動核心架構下，為既有系統增加新功能。
+	○ 系統擴展:API使開發者能在不變動核心架構下，為既有系統增加新功能。
 
 4.RESTful API:
 
-	○REST(Representational State Transfer)是一種設計網路API的架構風格，符合它設計原則的API就稱為 RESTful API。
+	○ REST(Representational State Transfer)是一種設計網路API的架構風格，符合它設計原則的API就稱為 RESTful API。
 
-	○RESTful API的特性:
+	○ RESTful API的特性:
 
 		◎基於標準的HTTP方法
 
@@ -48,7 +48,7 @@ title = 'API'
 
 		◎支援快取(Caching)，提升效能與可擴展性
 
-	○常用HTTP方法對應操作：
+	○ 常用HTTP方法對應操作：
 
 		◎GET:取得資料
 
@@ -58,7 +58,7 @@ title = 'API'
 
 		◎DELETE:刪除資料
 
-	○RESTful API的三大核心優勢:
+	○ RESTful API的三大核心優勢:
 
 		◎可擴展性:
 
