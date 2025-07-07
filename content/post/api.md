@@ -8,7 +8,7 @@ title = 'API概述'
 
 <!--more-->
 
-1.關於API:
+## 1.關於API:
 
 	API(Application Programming Interface)API是一組定義好的規則，描述不同軟體系統之間如何互相溝通與互動。例如:
 
@@ -16,7 +16,7 @@ title = 'API概述'
 
 		◎呼叫特定功能，讓應用程式執行某些操作
 
-2.API 的類型：
+## 2.API 的類型：
 
 	○ REST API:最流行的API類型，基於HTTP協定，使用URL表示資源，並以JSON格式傳輸資料。簡潔、靈活，易於整合與維護。
  
@@ -24,7 +24,7 @@ title = 'API概述'
 
 	○ GraphQL:一種新興API技術，由Facebook推出。允許客戶端自定義所需的資料欄位，並以一次請求取得多筆資料，減少資料冗餘與請求次數。
 
-3.API 的作用：
+## 3.API 的作用：
 
 	○ 資料共享:讓不同系統之間同步資料，例如手機App與伺服器之間的互動。
 
@@ -32,7 +32,7 @@ title = 'API概述'
 
 	○ 系統擴展:API使開發者能在不變動核心架構下，為既有系統增加新功能。
 
-4.RESTful API:
+## 4.RESTful API:
 
 	○ REST(Representational State Transfer)是一種設計網路API的架構風格，符合它設計原則的API就稱為RESTful API。
 
