@@ -1,27 +1,36 @@
-name: Deploy Hugo site to GitHub Pages
+name: Build and Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - master
+      - main  # 你的主要分支
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive  # 👈 這行很關鍵！自動抓主題
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.124.1'
+          hugo-version: '0.147.8'  # 跟 GitLab 同版本
 
-      - name: Build
-        run: hugo --minify
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.x'
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+            npm ci
+          fi
+
+      - name: Build Hugo site with GitHub Pages baseURL
+        run: hugo --gc --minify --baseURL="https://你的github帳號.github.io/你的repo名/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'zh-tw'
 title = '工作日誌'
 theme = "github-style"
+relativeURLs = true
+
 
 [params]
   author = "陳均昊"
