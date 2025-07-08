@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true  # 👈 這行很關鍵！自動抓主題
+          submodules: recursive  # 👈 這行很關鍵！自動抓主題
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
