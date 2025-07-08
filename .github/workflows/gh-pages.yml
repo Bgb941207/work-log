@@ -3,7 +3,7 @@ name: Build and Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # 每次 push 到 master 自動部署
 
 jobs:
   build-deploy:
@@ -13,12 +13,12 @@ jobs:
       - name: Checkout repository (with submodules)
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: recursive  # 如果主題是用 git submodule 安裝
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.8'
+          hugo-version: '0.147.8'  # 你指定的版本（與 GitLab 同）
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -33,11 +33,11 @@ jobs:
 
       - name: Replace image URLs for GitHub Pages
         run: |
-          sed -i 's|https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/avatar.png|https://raw.githubusercontent.com/Bgb941207/work-log/master/static/images/avatar.png|g' config.toml
-          sed -i 's|https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/github.png|https://raw.githubusercontent.com/Bgb941207/work-log/master/static/images/github.png|g' config.toml
+          sed -i 's|https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/avatar.png|https://raw.githubusercontent.com/Bgb941207/work-log/master/static/images/avatar.png|g' hugo.toml
+          sed -i 's|https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/github.png|https://raw.githubusercontent.com/Bgb941207/work-log/master/static/images/github.png|g' hugo.toml
 
       - name: Build Hugo site with GitHub Pages baseURL
-        run: hugo --gc --minify --baseURL="https://bgb941207.github.io/work-log/"
+        run: hugo --gc --minify --baseURL="https://bgb941207.github.io/work-log/" --config hugo.toml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
