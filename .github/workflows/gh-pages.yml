@@ -1,10 +1,9 @@
-
 name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - master  # 你目前是用 master 分支
+      - master
 
 jobs:
   deploy:
@@ -13,11 +12,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: true  # 👈 這行很關鍵！自動抓主題
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.124.1'  # 可依你實際使用的版本修改
+          hugo-version: '0.124.1'
 
       - name: Build
         run: hugo --minify
@@ -27,5 +28,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-
