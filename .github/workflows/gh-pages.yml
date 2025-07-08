@@ -13,12 +13,12 @@ jobs:
       - name: Checkout repository (with submodules)
         uses: actions/checkout@v3
         with:
-          submodules: recursive  # 這行很重要！確保主題等 submodule 會被拉下來
+          submodules: recursive  # 拉主題 submodule
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.8'  # 跟 GitLab 同版本
+          hugo-version: '0.147.8'  # 與 GitLab 同版本
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -32,10 +32,11 @@ jobs:
           fi
 
       - name: Build Hugo site with GitHub Pages baseURL
-        run: hugo --gc --minify --baseURL="https://你的github帳號.github.io/你的repo名/"
+        run: hugo --gc --minify --baseURL="https://bgb941207.github.io/work-log/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
