@@ -3,7 +3,7 @@ name: Build and Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main  # 你的主要分支
+      - master  # 你的主要分支
 
 jobs:
   build-deploy:
