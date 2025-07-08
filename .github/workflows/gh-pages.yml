@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (with submodules)
         uses: actions/checkout@v3
+        with:
+          submodules: recursive  # 這行很重要！確保主題等 submodule 會被拉下來
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
