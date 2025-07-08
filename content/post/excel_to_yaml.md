@@ -105,6 +105,13 @@ def rows2dict(data_rows, key_map, list_fields):
                 continue
 ```
 - 這段會試圖從名稱中把編號前綴抽出，只保留剩下的「設備名稱」部分。
+- 效果如下:
+
+| 設備編號 | 設備名稱 | 輸出name |
+|:---:|:---:|:---:|
+|A-1234|設備A|A-1234.設備A|
+|B-2345|B-2345設備B|B-2345.設備B|
+|C-3456|#1設備C|C-3456.#1設備C|
 ```python
             value_str = str(value).strip()
             if key in list_fields:
@@ -116,6 +123,7 @@ def rows2dict(data_rows, key_map, list_fields):
 
     return result
 ```
+
 - machineSystems 等欄位會以 YAML 陣列格式輸出，例如：
 machineSystems: '油壓系統'
 ---
@@ -181,6 +189,7 @@ if __name__ == "__main__":
 ```
 ---
 ## 以下為轉換後的 YAML 範例（含單引號與縮排）：
+
 ```python
 觀音廠:
    -  name: 'B-0117.#1M系收塵風機'
