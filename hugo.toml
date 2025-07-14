@@ -5,7 +5,7 @@ theme = "github-style"
 relativeURLs = true
 
 [pagination]
-  pagerSize = 5  # ✅ 測試分頁可改小一點以觸發 page/2
+  pagerSize = 99  # ✅ 測試分頁可改小一點以觸發 page/2
 
 [params]
   author = "陳均昊"
