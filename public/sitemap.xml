@@ -2,35 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/2025-07-07/</loc>
-    <lastmod>2025-07-07T17:46:36+08:00</lastmod>
+    <loc>https://example.org/post/</loc>
+    <lastmod>2025-07-14T13:43:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://example.org/</loc>
+    <lastmod>2025-07-14T13:43:00+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/20250711/</loc>
+    <lastmod>2025-07-11T11:06:34+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/20250710/</loc>
+    <lastmod>2025-07-11T09:42:28+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/20250709/</loc>
+    <lastmod>2025-07-09T18:01:05+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/20250708/</loc>
+    <lastmod>2025-07-08T16:21:50+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/2025-07-07/</loc>
+    <lastmod>2025-07-08T15:10:43+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/post/api/</loc>
     <lastmod>2025-07-07T17:53:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-07T17:53:24+08:00</lastmod>
+    <loc>https://example.org/post/excel_to_yaml/</loc>
+    <lastmod>2025-07-09T16:30:18+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/api/</loc>
-    <lastmod>2025-07-07T17:53:24+08:00</lastmod>
+    <loc>https://example.org/post/20250704/</loc>
+    <lastmod>2025-07-08T15:11:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/excel_to_yaml/</loc>
-    <lastmod>2025-07-07T17:26:34+08:00</lastmod>
+    <loc>https://example.org/post/20250703/</loc>
+    <lastmod>2025-07-10T15:51:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/20250704/</loc>
-    <lastmod>2025-07-07T17:28:20+08:00</lastmod>
+    <loc>https://example.org/post/20250702/</loc>
+    <lastmod>2025-07-08T15:11:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/20250703/</loc>
-    <lastmod>2025-07-07T17:28:20+08:00</lastmod>
+    <loc>https://example.org/post/my-first-post/</loc>
+    <lastmod>2025-07-08T16:20:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/20250702/</loc>
-    <lastmod>2025-07-07T17:28:20+08:00</lastmod>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
-    <lastmod>2025-07-07T17:28:20+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>

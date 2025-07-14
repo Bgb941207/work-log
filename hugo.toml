@@ -1,11 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bgb941207.github.io/work-log/'  # ✅ 修正重點
 languageCode = 'zh-tw'
 title = '工作日誌'
 theme = "github-style"
 relativeURLs = true
 
 [pagination]
-  pagerSize = 10
+  pagerSize = 5  # ✅ 測試分頁可改小一點以觸發 page/2
 
 [params]
   author = "陳均昊"
@@ -14,7 +14,7 @@ relativeURLs = true
   facebook = "陳均昊"
   instagram = "BGB_CCH"
   twitter = "bgb09446826"
-  github = ""  # 可填空
+  github = ""
   email = "bgb20051207@gmail.com"
   url = ""
   headerIcon = "https://gitlab.inner.advanced-tek.com.tw:8443/work-log-7ac089/images/github.png"
@@ -41,4 +41,4 @@ relativeURLs = true
     noClasses = false
     guessSyntax = true
     lineNos = true
-    style = "github"  # 可選 dracula、monokai、solarized-light 等
+    style = "github"
