@@ -3,9 +3,9 @@ languageCode = 'zh-tw'
 title = '工作日誌'
 theme = "github-style"
 relativeURLs = true
-paginate = 10  # 每頁最多文章數，自行調整
 
-
+[pagination]
+  pagerSize = 10
 
 [params]
   author = "陳均昊"
