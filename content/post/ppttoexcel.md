@@ -157,4 +157,4 @@ python p2e_3.py  # 執行後依提示輸入包含 PPT 的資料夾路徑
 ---
 
 ## 完整程式碼檔案
-[🔗ppt_to_excel.py]()
+[🔗ppt_to_excel.py](https://github.com/Bgb941207/work-log/blob/master/static/PPT_to_Excel.py)
