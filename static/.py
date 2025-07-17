@@ -8,9 +8,10 @@ from pptx import Presentation
 from openpyxl import Workbook
 
 # === 參數區 ===
-# 輸入資料夾（執行時互動填入）
+# 以下參數供日後統一管理
+# 輸入
 INPUT_FOLDER = None
-# 輸出根目錄
+# 輸出
 OUTPUT_ROOT = r"C:\Users\USER\Desktop\ppt_2_excel\八里廠_維修項目整理"
 # 圖片格式
 IMG_FORMAT = 'jpg'
@@ -20,7 +21,9 @@ END_KEYWORD   = "工作計畫說明"
 
 
 def sanitize_text(text):
-    """移除 Excel 不支援的控制字元 (0x00-0x1F，排除 \t,\n,\r)。"""
+    """
+    移除 Excel 不支援的控制字元 (0x00-0x1F，排除 \t,\n,\r)。
+    """
     return ''.join(
         c for c in text
         if c in ('\t', '\n', '\r') or ord(c) >= 32
@@ -28,14 +31,13 @@ def sanitize_text(text):
 
 
 def find_slide_range(ppt_path, start_kw, end_kw):
-    """找出 PPT 中包含 start_kw 與 end_kw 的第一個範圍 (起訖頁)。"""
+    
     try:
         prs = Presentation(ppt_path)
     except (zipfile.BadZipFile, Exception) as e:
         print(f"[Warning] 無法開啟或解析 PPT '{ppt_path}'：{e}")
         return None, None
-
-    start_idx = end_idx = None
+    start_idx, end_idx = None, None
     for idx, slide in enumerate(prs.slides, start=1):
         text = "".join(
             shape.text for shape in slide.shapes
@@ -49,13 +51,12 @@ def find_slide_range(ppt_path, start_kw, end_kw):
     return start_idx, end_idx
 
 
-def extract_text_to_excel(ppt_path, excel_path, start_slide, end_slide, image_dir=None, img_format='jpg'):
-   
+def extract_text_to_excel(ppt_path, excel_path, start_slide, end_slide):
+    
     try:
         prs = Presentation(ppt_path)
     except (zipfile.BadZipFile, Exception) as e:
         print(f"[Warning] 無法開啟或解析 PPT '{ppt_path}'：{e}")
-        # 輸出預設的「無」
         wb = Workbook()
         ws = wb.active
         ws.title = "Slides_Text"
@@ -67,64 +68,49 @@ def extract_text_to_excel(ppt_path, excel_path, start_slide, end_slide, image_di
     wb = Workbook()
     ws = wb.active
     ws.title = "Slides_Text"
-    # 標頭
     ws.cell(1, 1, "Slide Number")
     ws.cell(1, 2, "Text Content")
-    ws.cell(1, 3, "Image Path")
-
     row = 2
     for idx, slide in enumerate(prs.slides, start=1):
         if idx < start_slide or idx > end_slide:
             continue
-
-        # 收集文字
         texts = []
         for shape in slide.shapes:
             if hasattr(shape, 'has_text_frame') and shape.has_text_frame:
                 content = shape.text.strip()
                 if content:
                     texts.append(content)
-        combined = sanitize_text("\n".join(texts)) or "無文字"
-
-        # 填入 A、B
-        ws.cell(row, 1, idx)
-        ws.cell(row, 2, combined)
-
-        # 如有提供 image_dir，計算截圖檔名並寫入 C 欄
-        if image_dir:
-            img_name = f"slide_{idx}.{img_format}"
-            img_path = os.path.abspath(os.path.join(image_dir, img_name))
-            ws.cell(row, 3, img_path)
-
-        row += 1
-
+        combined = sanitize_text("\n".join(texts))
+        if combined:
+            ws.cell(row, 1, idx)
+            ws.cell(row, 2, combined)
+            row += 1
+    if row == 2:
+        ws.cell(2, 1, "無")
     wb.save(excel_path)
-    print(f"✔ 已儲存文字與截圖路徑至 Excel: {excel_path}")
+    print(f"✔ 已儲存文字 Excel: {excel_path}")
 
 
 def export_images(ppt_path, output_dir, img_format, start_slide, end_slide):
-    """使用 COM 介面匯出 PPT 範圍內的每頁為圖片。"""
+   
     ppt_path = os.path.abspath(ppt_path)
     if not os.path.exists(ppt_path):
         print(f"[Error] 檔案不存在: {ppt_path}", file=sys.stderr)
         return
-
     try:
         app = win32com.client.Dispatch("PowerPoint.Application")
         pres = app.Presentations.Open(ppt_path, ReadOnly=1, WithWindow=0)
     except Exception as e:
         print(f"[Warning] COM 開啟 PPT 失敗 '{ppt_path}'：{e}")
         return
-
     os.makedirs(output_dir, exist_ok=True)
     total = pres.Slides.Count
     end_idx = min(end_slide, total)
-
     for idx in range(start_slide, end_idx + 1):
+        slide = pres.Slides.Item(idx)
         out_path = os.path.join(output_dir, f"slide_{idx}.{img_format}")
-        pres.Slides.Item(idx).Export(out_path, img_format)
+        slide.Export(out_path, img_format)
         print(f"✔ 匯出圖片 第{idx}頁 → {out_path}")
-
     pres.Close()
     app.Quit()
 
@@ -142,35 +128,23 @@ if __name__ == '__main__':
         orig_name = ppt_file.stem
         m = re.match(r'^(\d+)', orig_name)
         base_name = m.group(1) if m else orig_name
-
         out_dir = Path(OUTPUT_ROOT) / base_name
         out_dir.mkdir(parents=True, exist_ok=True)
-
         excel_path = out_dir / f"{base_name}.xlsx"
 
         # 偵測範圍
         start_idx, end_idx = find_slide_range(str(ppt_file), START_KEYWORD, END_KEYWORD)
         if start_idx is None or end_idx is None:
-            # 找不到範圍，輸出「無」
             wb = Workbook()
             ws = wb.active
             ws.title = "Slides_Text"
             ws.cell(1, 1, "Result")
             ws.cell(2, 1, "無")
             wb.save(excel_path)
-            print(f"⚠ [{base_name}] 找不到範圍，僅輸出 Excel '無'。")
+            print(f"⚠ [{base_name}] 找不到或無法解析 PPT，僅輸出 Excel '無'。")
         else:
             print(f"[{base_name}] 偵測到範圍：第{start_idx}頁 → 第{end_idx}頁")
-            # 先輸出文字並把路徑寫入 Excel
-            extract_text_to_excel(
-                str(ppt_file), str(excel_path),
-                start_idx, end_idx,
-                image_dir=str(out_dir), img_format=IMG_FORMAT
-            )
-            # 再匯出圖片
-            export_images(
-                str(ppt_file), str(out_dir),
-                IMG_FORMAT, start_idx, end_idx
-            )
+            extract_text_to_excel(str(ppt_file), str(excel_path), start_idx, end_idx)
+            export_images(str(ppt_file), str(out_dir), IMG_FORMAT, start_idx, end_idx)
 
     print("\n全部檔案處理完成，輸出位於：", OUTPUT_ROOT)
