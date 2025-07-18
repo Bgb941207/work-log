@@ -102,4 +102,4 @@ python add_hyperlinks_in_c.py
 
 ## 完整程式碼檔案
 
-[🔗hyperlink.py]()
+[🔗hyperlink.py](https://github.com/Bgb941207/work-log/blob/master/static/hyperlink.py)
