@@ -93,7 +93,7 @@ if __name__ == "__main__":
 於 **Terminal** 中輸入：
 
 ```bash
-python add_hyperlinks_in_c.py
+python hyperlink.py
 ```
 
 輸入後程式將依序列出處理中的檔案路徑與儲存狀況，直至顯示 `Done.`。
